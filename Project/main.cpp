@@ -1,5 +1,4 @@
-14 Вариант
-Храмцов Вячеслав Дмитриевич
+
 #include "file_reader.h"
 #include "constants.h"
 
@@ -49,4 +48,15 @@ void read(const char* file_name, book_subscription* array[], int& size)
     {
         throw "Ошибка открытия файла";
     }
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout << "Laboratory work #8. GIT\n";
+    cout << "Variant #14\n";
+    cout << "Author: Храмцов Вячеслав\n";
+    cout << "Group: 25ИСиТ1-д\n";
+    return 0;
 }
